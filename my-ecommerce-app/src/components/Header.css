@@ -1,12 +1,12 @@
 .Header {
     display: flex;
     justify-content: space-between;
-    float: top;
+    top: 0;
 }
 
 .Header nav {
     display: flex;
-    justify-content: space-center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 2px;

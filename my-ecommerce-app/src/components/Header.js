@@ -3,17 +3,19 @@ import "./Header.css";
 
 function Header() {
     return (
-        <div>
+        <div className="Header">
+            <div>
             <img src="../public/images/logo.png" alt="CompanyLogo"/>
             <p>Company Name</p>
-            <div className="nav">
-                <ul>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     );
 };
