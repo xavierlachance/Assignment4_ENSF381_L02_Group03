@@ -1,8 +1,16 @@
 import React from "react";
+import Header from "./Header";
+import HomeMainSection from "./HomeMainSection";
+import Footer from "./Footer";
 
 function Homepage() {
-  return
-    <h1>Welcome to my e-commerce app!</h1>;
+    return (
+        <div>
+                <Header />
+                <HomeMainSection />
+                <Footer />
+        </div>
+    );
 };
 
 export default Homepage;
