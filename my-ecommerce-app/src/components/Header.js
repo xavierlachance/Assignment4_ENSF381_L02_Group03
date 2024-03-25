@@ -5,16 +5,13 @@ function Header() {
     return (
         <div className="Header">
             <div>
-            <img src="../public/images/logo.png" alt="CompanyLogo"/>
-            <p>Company Name</p>
+            <img className="logo" src="../../images/logo.png" alt="CompanyLogo"/>
+            <p className="company-name">Company Name</p>
             </div>
             <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/shop">Shop</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
+                <a href="/">Home</a>
+                <a href="/shop">Products</a>
+                <a href="/contact">Login</a>
             </nav>
         </div>
     );

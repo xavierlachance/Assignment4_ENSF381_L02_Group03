@@ -1,13 +1,35 @@
 .Header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     top: 0;
+}
+
+.Header div, .Header nav {
+    box-sizing: border-box;
+}
+
+.Header div {
+    padding: 10px;
+    width: 100%;
+}
+
+.Header .logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.Header .company-name {
+    float: right;
 }
 
 .Header nav {
     display: flex;
+    padding: 5px;
+    padding-top: 15px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2px;
 }
