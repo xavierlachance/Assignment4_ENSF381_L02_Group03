@@ -1,3 +1,13 @@
+/*
+=========================================================
+Name        : index.js
+Assignment  : Assigment 4
+Author(s)   : Xavier Lachance
+Submission  : March 25, 2024
+Description : React framework for the e-commerce website
+=========================================================
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
