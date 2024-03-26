@@ -1,0 +1,13 @@
+.HomeMainSection-reviews{
+    padding: 20px;
+}
+
+.HomeMainSection-about {
+    padding: 20px;
+}
+
+.HomeMainSection-about .button-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
